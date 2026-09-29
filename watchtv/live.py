@@ -5,7 +5,7 @@ import os
 
 # ========== 填写源的地址 ==========
 URL_LIST = [
-    "https://live.445569.xyz/live.m3u"
+    "https://raw.githubusercontent.com/bang359/dsj/refs/heads/main/dsjcs1.txt"
 ]
 
 # ========== 分组映射：左边是源里的分组名，右边是输出时改后的分组名（裤佬源） ==========
