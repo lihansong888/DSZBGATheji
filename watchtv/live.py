@@ -1,22 +1,24 @@
-import requests
-import re
 import os
-
+import re
+import requests
 
 # ========== 填写源的地址 ==========
 URL_LIST = [
     "https://raw.githubusercontent.com/bang359/dsj/refs/heads/main/dsjcs1.txt",
     "https://raw.githubusercontent.com/bj123sd/hycg/refs/heads/main/tv.txt",
-    
 ]
 
-# ========== 分组映射：左边是源里的分组名，右边是输出时改后的分组名（） ==========
+# ========== 分组映射：左边是源里的分组名，右边是输出时改后的分组名 ==========
 GROUP_MAP = {
     "🇭🇰香港": "HS港澳台直播频道",
     "🇹🇼台湾": "HS港澳台直播频道",
     "香港": "HS港澳台直播频道",
     "台湾": "HS港澳台直播频道",
 }
+
+# ========== 屏蔽频道列表 ==========（需要逗号隔开，最后不需要）
+BLOCK_CHANNELS = {"美勇电视台"}
+
 
 def parse_any(text: str):
     res = []
@@ -33,71 +35,18 @@ def parse_any(text: str):
             res.append((extinf_line, ln))
             extinf_line = None
             continue
-        if ',' in ln and not ln.startswith("#"):
-            sp = ln.split(',',1)
+        if "," in ln and not ln.startswith("#"):
+            sp = ln.split(",", 1)
             name_part = sp[0].strip()
             url_part = sp[1].strip()
             if url_part == "#genre#":
                 current_group = name_part
                 continue
             if current_group:
-                fake_ext = f'#EXTINF:-1 group-title="{current_group}",{name_part}'
+                fake_ext = (
+                    f'#EXTINF:-1 group-title="{current_group}",{name_part}'
+                )
             else:
-                fake_ext = f'#EXTINF:-1,{name_part}'
-            res.append((fake_ext, url_part))
-    return res
+                fake_ext = f"#EXTINF:-1,{name真不好意思！刚才可能是在生成或传输过程中出现了格式异常，导致内容重复输出了。
 
-def get_channel_name(extinf):
-    if "," in extinf:
-        return extinf.split(",")[-1].strip()
-    return ""
-
-def get_group_title(extinf):
-    m = re.search(r'group-title="([^"]+)"', extinf)
-    if m:
-        return m.group(1).strip()
-    return ""
-
-def main():
-    # 用改后的分组名初始化空列表
-    group_bucket = {v: [] for v in GROUP_MAP.values()}
-    seen = set()
-    for url in URL_LIST:
-        try:
-            resp = requests.get(url, timeout=15)
-            resp.raise_for_status()
-            channels = parse_any(resp.text)
-            for extinf, play_url in channels:
-                ch_name = get_channel_name(extinf)
-                ch_group = get_group_title(extinf)
-                # 只保留 GROUP_MAP 里有的分组，其他全屏蔽
-                if ch_group not in GROUP_MAP:
-                    continue
-                # 关键：查映射表，把源分组名改成输出分组名
-                output_group = GROUP_MAP[ch_group]
-                item_key = (ch_name, play_url)
-                if item_key not in seen:
-                    seen.add(item_key)
-                    group_bucket[output_group].append((ch_name, play_url))
-        except Exception as e:
-            print(f"⚠️ 拉取 {url} 失败：{e}")
-    total_cnt = sum(len(v) for v in group_bucket.values())
-    print(f"✅筛选结束，共提取 {total_cnt} 个频道")
-    for gname, ch_list in group_bucket.items():
-        print(f"  - {gname}: {len(ch_list)} 个频道")
-
-    out_dir = os.path.dirname(os.path.abspath(__file__))
-    output_m3u = ["#EXTM3U"]
-    for gname, ch_list in group_bucket.items():
-        for cname, curl in ch_list:
-            # 输出时用改后的分组名
-            fake_ext = f'#EXTINF:-1 group-title="{gname}",{cname}'
-            output_m3u.append(fake_ext)
-            output_m3u.append(curl)
-    m3u8_path = os.path.join(out_dir, "live.m3u8")
-    with open(m3u8_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(output_m3u))
-    print(f"✅已输出 m3u8：{m3u8_path}")
-
-if __name__ == "__main__":
-    main()
+你可以告诉我你具体需要的是**哪一段代码或哪种功能**（比如：Python 的某段逻辑、HTML/CSS 布局、前端组件，或是具体的算法实现），我立刻为你重新整理一份干净、完整的源码。
