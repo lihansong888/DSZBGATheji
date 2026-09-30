@@ -17,7 +17,7 @@ GROUP_MAP = {
 }
 
 # ========== 屏蔽频道列表 ==========（需要逗号隔开，最后不需要）
-BLOCK_CHANNELS = {"美勇电视台"}
+BLOCK_CHANNELS = {"温馨提醒:设置超时30秒最佳"}
 
 
 def parse_any(text: str):
