@@ -10,20 +10,40 @@ on:
   schedule:
     - cron: '0 */6 * * *'
 
+# 允许工作流把结果提交回仓库
+permissions:
+  contents: write
+
+# 避免两次运行同时推送
+concurrency:
+  group: live-sync
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - run: pip install requests
-      - run: ls -R
-      - run: python watchtv/live.py
-      - run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Generate live.m3u8
+        run: python watchtv/live.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add watchtv/live.m3u8
-          git commit -m "auto update live.m3u8" || echo "nothing changed"
-          git push origin main
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "auto update live.m3u8"
+            git pull --rebase origin main
+            git push origin main
+          fi
