@@ -124,21 +124,17 @@ http://120.198.95.220:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
 https://cdn3.indevs.in/stream/tvb/fct4k/
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
-http://r.jdshipin.com/qClQf
-#EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
-http://211.97.63.3:3443/hls/541/index.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
 http://120.237.39.10:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
 http://120.238.84.45:9901/tsfile/live/1103_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
+http://211.97.63.3:3443/hls/541/index.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
 http://120.234.44.98:18180/TV00000000000000000032@HHZT$天威hh
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
 http://120.198.95.220:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
 http://120.198.103.68:9901/tsfile/live/1007_1.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
-http://120.198.84.146:9901/tsfile/live/1020_1.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",明珠台
 https://cdn3.indevs.in/stream/tvb/mzt/
 #EXTINF:-1 group-title="HS港澳台直播频道",明珠台
@@ -150,9 +146,9 @@ http://221.7.175.154:85/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB DRAMA
 https://amg01868-amg01868c5-tvbanywhere-us-4493.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbdrama-tvbanywhereus/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB星河
-https://cdn.qd.je/163189.php?id=tvbxh
-#EXTINF:-1 group-title="HS港澳台直播频道",TVB星河
 https://10.fast.hidns.vip/163189/xinghe/
+#EXTINF:-1 group-title="HS港澳台直播频道",TVB星河
+https://cdn.qd.je/163189.php?id=tvbxh
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB星河
 http://120.198.95.220:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB Plus
@@ -162,9 +158,9 @@ https://fast.hidns.vip/163189/hoy
 #EXTINF:-1 group-title="HS港澳台直播频道",HOY77
 http://play.wenxiang.cn/live/43dc6fc9b1af5af8ec332f3c88b95e4a.flv
 #EXTINF:-1 group-title="HS港澳台直播频道",HOY78
-https://cdn.qd.je/163189/hoy78
-#EXTINF:-1 group-title="HS港澳台直播频道",HOY78
 https://fast.hidns.vip/163189/hoy78
+#EXTINF:-1 group-title="HS港澳台直播频道",HOY78
+https://cdn.qd.je/163189/hoy78
 #EXTINF:-1 group-title="HS港澳台直播频道",HOY78
 http://play.wenxiang.cn/live/cf4526f51988d0ed065b5c3fa4bc925d.flv
 #EXTINF:-1 group-title="HS港澳台直播频道",HOY78
@@ -192,13 +188,13 @@ http://120.234.44.98:18180/TV00000000000000000034@HHZT$天威hh
 #EXTINF:-1 group-title="HS港澳台直播频道",广东新闻
 http://120.198.95.220:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="HS港澳台直播频道",中天新闻
+http://iactive-clink.com:8081/live/111ztxw.m3u8
+#EXTINF:-1 group-title="HS港澳台直播频道",中天新闻
 https://d.0j7.cn/1QW1Ki
 #EXTINF:-1 group-title="HS港澳台直播频道",中天新闻
 https://my5353.com/ztxw
 #EXTINF:-1 group-title="HS港澳台直播频道",中天新闻
 https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",中天新闻
-http://iactive-clink.com:8081/live/111ztxw.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",寰宇新闻
 http://nmk.ioapk.com:5050/of-litv-longturn14/index.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",东森新闻
@@ -219,8 +215,6 @@ https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8
 https://ktpremium.world/live/LT1976F/A9177/515200.ts
 #EXTINF:-1 group-title="HS港澳台直播频道",中视
 http://220.135.64.124:5050/of-4gtv-4gtv040/index.m3u8?proxy=true
-#EXTINF:-1 group-title="HS港澳台直播频道",中视
-http://31.43.191.125:8080/restream/restream/34897
 #EXTINF:-1 group-title="HS港澳台直播频道",公视
 http://211.72.174.95:8116/0.ts
 #EXTINF:-1 group-title="HS港澳台直播频道",民视
@@ -324,9 +318,9 @@ https://10.fast.hidns.vip/163189/viu6/
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB新闻台
 https://cdn6.cc.cd/163189/wxxw
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBPLUS
-https://10.fast.hidns.vip/163189/tvbp/
-#EXTINF:-1 group-title="HS港澳台直播频道",TVBPLUS
 https://cdn3.indevs.in/stream/tvb/tvbp/
+#EXTINF:-1 group-title="HS港澳台直播频道",TVBPLUS
+https://10.fast.hidns.vip/163189/tvbp/
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB1
 http://iptv.4666888.xyz/iptv2A.php?id=25
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBJ1
@@ -379,8 +373,6 @@ http://220.135.241.47:8321/0.ts
 http://220.135.241.47:8322/0.ts
 #EXTINF:-1 group-title="HS港澳台直播频道",原住民电视台
 http://220.135.241.47:8303/0.ts
-#EXTINF:-1 group-title="HS港澳台直播频道",民视新闻台
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",民视影剧
 https://cdn12.178.indevs.in/163189/msyj
 #EXTINF:-1 group-title="HS港澳台直播频道",台视财经
@@ -414,15 +406,13 @@ http://iptv.4666888.xyz/iptv2A.php?id=48
 #EXTINF:-1 group-title="HS港澳台直播频道",东森中国台
 http://38.64.72.148/hls/modn/list/2003/chunklist1.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",东森超视
-http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",东森超视
 http://38.64.72.148/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",东森超视美州台
 http://38.64.72.148/hls/modn/list/2013/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",东森美州
-http://38.64.72.148/hls/modn/list/2016/playlist.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",东森美州
 http://38.64.72.148/hls/modn/list/2016/chunklist0.m3u8
+#EXTINF:-1 group-title="HS港澳台直播频道",东森美州
+http://38.64.72.148/hls/modn/list/2016/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",东森AMERICA
 http://38.64.72.148:80/hls/modn/list/2015/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBS新闻台
@@ -469,8 +459,6 @@ http://iptv.4666888.xyz/iptv2A.php?id=56
 https://cdn12.178.indevs.in/163189/jtyh
 #EXTINF:-1 group-title="HS港澳台直播频道",靖洋戏剧台
 http://iptv.4666888.xyz/iptv2A.php?id=42
-#EXTINF:-1 group-title="HS港澳台直播频道",靖洋戏剧台
-http://31.43.191.125:8080/restream/restream/34833
 #EXTINF:-1 group-title="HS港澳台直播频道",采昌影剧台
 https://cdn12.178.indevs.in/163189/ccyj
 #EXTINF:-1 group-title="HS港澳台直播频道",龙华电影台
@@ -531,11 +519,3 @@ http://iptv.4666888.xyz/iptv2A.php?id=41
 https://cdn.qd.je/163189/amzy
 #EXTINF:-1 group-title="HS港澳台直播频道",澳门莲花
 http://rihou.cc:555/tv/澳门莲花
-#EXTINF:-1 group-title="HS港澳台直播频道",三立戏剧
-http://61.221.215.25:8800/hls/41/index.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",东森财经新闻台
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",纬来精彩台
-http://61.221.215.25:8800/hls/48/index.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",靖天欢乐台
-http://zby.lskk.top/cdnlive.php?mode=play&id=edfbc25c34a0d10848731f323d77876f&token=wUJLMUpsYJOdEdkpd5OwyC27t69vzy3W
