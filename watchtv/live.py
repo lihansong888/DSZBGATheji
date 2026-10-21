@@ -32,6 +32,8 @@ SOURCES = [
     ("https://guovin.github.io/iptv-api/result.m3u", False),
     ("https://raw.githubusercontent.com/bang359/dsj/refs/heads/main/dsjcs1.txt", False),
     ("https://raw.githubusercontent.com/bj123sd/hycg/refs/heads/main/tv.txt", False),
+    "https://gh-proxy.com/https://raw.githubusercontent.com/XU-Boqing/iptv-dedup/refs/heads/main/live_lite_dedup_720p.m3u",
+    
 ]
 
 # 环境变量 SOURCE_URLS（逗号或换行分隔）可整体替换上面的来源，并把它们都当作"已是港澳台列表"。
