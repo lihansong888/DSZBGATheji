@@ -7,6 +7,19 @@ on:
       - 'watchtv/live.py'
       - '.github/workflows/live.yml'
   workflow_dispatch:
+    inputs:
+      skip_check:
+        description: '跳过链接检测（调试用，检测结果异常少时可试试）'
+        type: boolean
+        default: false
+      force:
+        description: '结果比上次少很多时也强制覆盖'
+        type: boolean
+        default: false
+      verbose:
+        description: '在日志里列出每条未通过的链接和原因'
+        type: boolean
+        default: false
   schedule:
     - cron: '0 */6 * * *'
 
@@ -22,7 +35,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -32,18 +45,33 @@ jobs:
 
       - run: pip install requests
 
-      - name: Generate live.m3u8
+      # ffprobe 用来检查画面（排除黑屏、只有声音的源）
+      - name: Install ffmpeg
+        run: |
+          command -v ffprobe >/dev/null || (sudo apt-get update -y && sudo apt-get install -y ffmpeg)
+
+      - name: Generate live files
+        env:
+          # GitHub 机房在海外：宽松模式只剔除确定有问题的链接，测不通的保留备用。
+          # 如果改成 runs-on: self-hosted（在你自己的网络里跑），自动切到严格模式。
+          CHECK_MODE: ${{ runner.environment == 'self-hosted' && 'strict' || 'lenient' }}
+          # 这里输出的是"候选池"：每个频道多留一些，交给宝塔在国内网络里做最终检测
+          MAX_PER_CHANNEL: "6"
+          MAX_MAYBE_PER_CHANNEL: "6"
+          SKIP_CHECK: ${{ inputs.skip_check && '1' || '0' }}
+          FORCE: ${{ inputs.force && '1' || '0' }}
+          VERBOSE: ${{ inputs.verbose && '1' || '0' }}
         run: python watchtv/live.py
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add watchtv/live.m3u8
+          git add watchtv/live.m3u8 watchtv/live.txt
           if git diff --cached --quiet; then
             echo "nothing changed"
           else
-            git commit -m "auto update live.m3u8"
+            git commit -m "auto update live files"
             git pull --rebase origin main
             git push origin main
           fi
