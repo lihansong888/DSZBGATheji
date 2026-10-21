@@ -13,8 +13,6 @@ https://petclub-samsungaus.amagi.tv/playlist.m3u8
 http://125.227.210.55:4050/VideoInput/play.ts
 #EXTINF:-1 group-title="HS港澳台直播频道",CGNTV Chinese
 https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",Dali TV
-http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",Discovery Asia Taiwan
 http://125.227.210.55:1004/VideoInput/play.ts
 #EXTINF:-1 group-title="HS港澳台直播频道",Good 2
@@ -25,8 +23,6 @@ http://125.227.210.55:1003/VideoInput/play.ts
 https://live.ntdtv.com/aplive200/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",Supreme Master TV
 https://lbs-us1.suprememastertv.com/720p.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",Taiwan Indigenous TV
-https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBS-Asia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",WXTV
@@ -35,14 +31,6 @@ https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w117
 http://112.27.5.218:9901/tsfile/live/faacts/1040_1.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",重温经典
 https://cdn.qd.je/163189/cwjd
-#EXTINF:-1 group-title="HS港澳台直播频道",邵氏电影
-http://38.75.136.137:98/gslb/dsdqpub/lbssdy.m3u8?auth=testpub
-#EXTINF:-1 group-title="HS港澳台直播频道",邵氏武侠
-http://38.75.136.137:98/gslb/dsdqpub/lbsswx.m3u8?auth=testpub
-#EXTINF:-1 group-title="HS港澳台直播频道",邵氏动作
-http://38.75.136.137:98/gslb/dsdqpub/lbssdz.m3u8?auth=testpub
-#EXTINF:-1 group-title="HS港澳台直播频道",邵氏喜剧
-http://38.75.136.137:98/gslb/dsdqpub/lbssxj.m3u8?auth=testpub
 #EXTINF:-1 group-title="HS港澳台直播频道",凤凰资讯
 http://183.236.161.115:8960/live1171.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
@@ -67,6 +55,8 @@ https://cdn.qd.je/163189/rthk31
 http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",耀才財經
 https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
+#EXTINF:-1 group-title="HS港澳台直播频道",中天新闻
+http://iactive-clink.com:8081/live/111ztxw.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",公视
 http://211.72.174.95:8116/0.ts
 #EXTINF:-1 group-title="HS港澳台直播频道",民视
@@ -85,8 +75,6 @@ https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8
 http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",凤凰美州台
 http://xiangxiws.vip:6777/qlw.php?key=qq群746405779&id=fhmz
-#EXTINF:-1 group-title="HS港澳台直播频道",凤凰美州台
-http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:06:9A:77&stream=156408
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台字幕
 https://cdn3.indevs.in/stream/tvb/fct/
 #EXTINF:-1 group-title="HS港澳台直播频道",黄金華剧台
@@ -99,8 +87,6 @@ https://cdn3.indevs.in/stream/live/typd/
 https://cdn3.indevs.in/stream/live/ccm/
 #EXTINF:-1 group-title="HS港澳台直播频道",耀才财经
 https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",长城精品
-http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=156409
 #EXTINF:-1 group-title="HS港澳台直播频道",ViuTV
 https://10.fast.hidns.vip/163189/viu/
 #EXTINF:-1 group-title="HS港澳台直播频道",VIUTV6
@@ -108,9 +94,9 @@ https://10.fast.hidns.vip/163189/viu6/
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB新闻台
 https://cdn6.cc.cd/163189/wxxw
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBPLUS
-https://cdn3.indevs.in/stream/tvb/tvbp/
-#EXTINF:-1 group-title="HS港澳台直播频道",TVBPLUS
 https://10.fast.hidns.vip/163189/tvbp/
+#EXTINF:-1 group-title="HS港澳台直播频道",TVBPLUS
+https://cdn3.indevs.in/stream/tvb/tvbp/
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB千禧经典台
 https://cdn3.indevs.in/stream/live/tvbc/
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBvietnam
@@ -129,6 +115,8 @@ https://10.fast.hidns.vip/163189/hjhjt/
 https://cdn3.indevs.in/stream/live/iqiyi/
 #EXTINF:-1 group-title="HS港澳台直播频道",中旺电视
 http://38.64.72.148/hls/modn/list/4010/chunklist1.m3u8
+#EXTINF:-1 group-title="HS港澳台直播频道",台视新闻台
+http://222.128.55.152:9080/live/ts.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",HISTORY
 http://37.27.111.214:8080/live/27/hls.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",东森中国台
@@ -137,31 +125,19 @@ http://38.64.72.148/hls/modn/list/2003/chunklist1.m3u8
 http://38.64.72.148/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",东森超视美州台
 http://38.64.72.148/hls/modn/list/2013/playlist.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",东森美州
-http://38.64.72.148/hls/modn/list/2016/chunklist0.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",东森美州
-http://38.64.72.148/hls/modn/list/2016/playlist.m3u8
+#EXTINF:-1 group-title="HS港澳台直播频道",东森AMERICA
+http://38.64.72.148:80/hls/modn/list/2015/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBSAsia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBS亚洲台
 http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",天良
-http://60.248.91.20:8000/main
 #EXTINF:-1 group-title="HS港澳台直播频道",汉天卫视
 http://38.64.72.148/hls/modn/list/4025/chunklist1.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",汉天卫视
-http://38.64.72.148/hls/modn/list/4025/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",环宇新闻台
 http://jnzq.ohoyee.com:9080/live/xiangjiaoge-hyxw.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",大立
-http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",TAIWAN+
 https://fastly.live.brightcove.com/6385235869112/ap-northeast-1/6282251407001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaWU4OWZvLmVncmVzcy5pdjNqZDgiLCJhY2NvdW50X2lkIjoiNjI4MjI1MTQwNzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MjgyMjUxNDA3MDAxIl0sImp0aSI6IjYzODUyMzU4NjkxMTIifQ.4c-V1Ks3nBx9nRljtn5-jCNP_nLuWBbk-pw9BFWZfMQ/playlist-hls.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",唯心1
 http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",唯心2
-http://61.216.67.119:1935/wxtv/wxtv.stream/playlist.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",TITV
-https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",澳门综艺
 https://cdn.qd.je/163189/amzy

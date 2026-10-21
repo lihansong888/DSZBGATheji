@@ -1,0 +1,72 @@
+HS港澳台直播频道,#genre#
+Asian Drama,http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8
+Golden Jade,http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8
+Jade,http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
+Mei Ah Movie Channel,http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8
+Pet Club TV,https://petclub-samsungaus.amagi.tv/playlist.m3u8
+AXN Asia Taiwan,http://125.227.210.55:4050/VideoInput/play.ts
+CGNTV Chinese,https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+Discovery Asia Taiwan,http://125.227.210.55:1004/VideoInput/play.ts
+Good 2,https://live.streamingfast.net/osmflivech2.m3u8
+HBO Asia Taiwan,http://125.227.210.55:1003/VideoInput/play.ts
+NTD TV Asia-Pacific,https://live.ntdtv.com/aplive200/playlist.m3u8
+Supreme Master TV,https://lbs-us1.suprememastertv.com/720p.m3u8
+TVBS-Asia,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+WXTV,https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+精彩影视,http://112.27.5.218:9901/tsfile/live/faacts/1040_1.m3u8
+重温经典,https://cdn.qd.je/163189/cwjd
+凤凰资讯,http://183.236.161.115:8960/live1171.m3u8
+翡翠台,https://cdn3.indevs.in/stream/tvb/fct4k/
+明珠台,https://cdn3.indevs.in/stream/tvb/mzt/
+TVB DRAMA,https://amg01868-amg01868c5-tvbanywhere-us-4493.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbdrama-tvbanywhereus/playlist.m3u8
+TVB星河,https://cdn.qd.je/163189.php?id=tvbxh
+TVB星河,https://10.fast.hidns.vip/163189/xinghe/
+HOY77,https://fast.hidns.vip/163189/hoy
+HOY78,https://fast.hidns.vip/163189/hoy78
+HOY78,https://cdn.qd.je/163189/hoy78
+RTHK31,https://cdn.qd.je/163189/rthk31
+香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+耀才財經,https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
+中天新闻,http://iactive-clink.com:8081/live/111ztxw.m3u8
+公视,http://211.72.174.95:8116/0.ts
+民视,http://211.72.174.95:8115/0.ts
+台视,http://211.72.174.95:8112/0.ts
+Taiwan+,https://fastly.live.brightcove.com/6385235869112/ap-northeast-1/6282251407001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaWU4OWZvLmVncmVzcy5pdjNqZDgiLCJhY2NvdW50X2lkIjoiNjI4MjI1MTQwNzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MjgyMjUxNDA3MDAxIl0sImp0aSI6IjYzODUyMzU4NjkxMTIifQ.4c-V1Ks3nBx9nRljtn5-jCNP_nLuWBbk-pw9BFWZfMQ/playlist-hls.m3u8
+NTD,https://livedata.cloudokyo.cloud/hls/424e5248-02c2-47f3-9435-28877812d25c/hls_1080p/video.m3u8
+Love Nature,https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8
+Wild TV,https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8
+唯心电视,http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8
+凤凰美州台,http://xiangxiws.vip:6777/qlw.php?key=qq群746405779&id=fhmz
+翡翠台字幕,https://cdn3.indevs.in/stream/tvb/fct/
+黄金華剧台,https://10.fast.hidns.vip/163189/hjhjt/
+NOW新闻台,https://fast.hidns.vip/163189/now
+天映频道,https://cdn3.indevs.in/stream/live/typd/
+天映经典,https://cdn3.indevs.in/stream/live/ccm/
+耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
+ViuTV,https://10.fast.hidns.vip/163189/viu/
+VIUTV6,https://10.fast.hidns.vip/163189/viu6/
+TVB新闻台,https://cdn6.cc.cd/163189/wxxw
+TVBPLUS,https://10.fast.hidns.vip/163189/tvbp/
+TVBPLUS,https://cdn3.indevs.in/stream/tvb/tvbp/
+TVB千禧经典台,https://cdn3.indevs.in/stream/live/tvbc/
+TVBvietnam,https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/playlist.m3u8
+HOY76,https://cdn11.163189.xyz/163189/hoy76
+Y+剧场,http://hms3659nc3747353871.live.aikan.miguvideo.com/PLTV/88888888/224/3221230226/1.m3u8?tenantId=8601&accountinfo=~~V2.0~SSxnh2gPZaV_9wZMz86ofwc38bf04ecfc078f584095a9c6e91b9e1~3twbaBwUaqzfkJ5qW9C0gp1C11OJXhanim-P8XrfoHFX-jV3R0FL2wbo-VR8pOhzd5938d01ed8f640cebb709a281e7b1d3~ExtInfo9W1qynAo8QtSBzK-JlHBbQ3bb1f3410d135b117fdf58086980a86d:20240603131532:UTC,c864060416ccf5986b3e5940417477879245774,117.148.130.144,20240603131532,4444444684,c864060416ccf5986b3e5940417477879245774,-1,0,1,,,2,1000000201,,,2,23,0,241,9ec0a2dcdcfd4259318d50a38cde552c,,,1,1,140151867,END&fbl=
+ASTRO AOD,https://cdn3.indevs.in/stream/live/aod/
+ASTRO AEC,https://cdn3.indevs.in/stream/live/aec/
+ASTRO欢喜台,https://10.fast.hidns.vip/163189/hjhjt/
+爱奇艺,https://cdn3.indevs.in/stream/live/iqiyi/
+中旺电视,http://38.64.72.148/hls/modn/list/4010/chunklist1.m3u8
+台视新闻台,http://222.128.55.152:9080/live/ts.m3u8
+HISTORY,http://37.27.111.214:8080/live/27/hls.m3u8
+东森中国台,http://38.64.72.148/hls/modn/list/2003/chunklist1.m3u8
+东森超视,http://38.64.72.148/hls/modn/list/2013/chunklist1.m3u8
+东森超视美州台,http://38.64.72.148/hls/modn/list/2013/playlist.m3u8
+东森AMERICA,http://38.64.72.148:80/hls/modn/list/2015/playlist.m3u8
+TVBSAsia,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+TVBS亚洲台,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
+汉天卫视,http://38.64.72.148/hls/modn/list/4025/chunklist1.m3u8
+环宇新闻台,http://jnzq.ohoyee.com:9080/live/xiangjiaoge-hyxw.m3u8
+TAIWAN+,https://fastly.live.brightcove.com/6385235869112/ap-northeast-1/6282251407001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaWU4OWZvLmVncmVzcy5pdjNqZDgiLCJhY2NvdW50X2lkIjoiNjI4MjI1MTQwNzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MjgyMjUxNDA3MDAxIl0sImp0aSI6IjYzODUyMzU4NjkxMTIifQ.4c-V1Ks3nBx9nRljtn5-jCNP_nLuWBbk-pw9BFWZfMQ/playlist-hls.m3u8
+唯心1,http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+澳门综艺,https://cdn.qd.je/163189/amzy
