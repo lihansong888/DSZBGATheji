@@ -100,13 +100,15 @@ http://38.75.136.137:98/gslb/dsdqpub/lbssdz.m3u8?auth=testpub
 #EXTINF:-1 group-title="HS港澳台直播频道",邵氏喜剧
 http://38.75.136.137:98/gslb/dsdqpub/lbssxj.m3u8?auth=testpub
 #EXTINF:-1 group-title="HS港澳台直播频道",凤凰资讯
+http://183.236.161.115:8960/live1171.m3u8
+#EXTINF:-1 group-title="HS港澳台直播频道",凤凰资讯
 http://120.237.39.10:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="HS港澳台直播频道",凤凰资讯
 http://120.198.95.220:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=1&down=1$广东移动
 #EXTINF:-1 group-title="HS港澳台直播频道",凤凰资讯
-http://183.236.161.115:8960/live1171.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",凤凰资讯
 http://221.7.175.154:85/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="HS港澳台直播频道",凤凰资讯
+http://120.234.44.98:18180/TV00000000000000000009@HHZT$天威hh
 #EXTINF:-1 group-title="HS港澳台直播频道",凤凰中文
 http://120.237.39.10:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="HS港澳台直播频道",凤凰中文
@@ -122,13 +124,15 @@ http://120.198.95.220:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
 https://cdn3.indevs.in/stream/tvb/fct4k/
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
+http://211.97.63.3:3443/hls/541/index.m3u8
+#EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
+http://120.198.95.220:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&down=1
+#EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
 http://120.237.39.10:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
 http://120.238.84.45:9901/tsfile/live/1103_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
-http://211.97.63.3:3443/hls/541/index.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
-http://120.198.95.220:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&down=1
+http://120.234.44.98:18180/TV00000000000000000032@HHZT$天威hh
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
 http://120.198.103.68:9901/tsfile/live/1007_1.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台
@@ -266,9 +270,9 @@ http://player4.juyun.tv/camera/158562106.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台字幕
 https://cdn3.indevs.in/stream/tvb/fct/
 #EXTINF:-1 group-title="HS港澳台直播频道",黄金華剧台
-https://10.fast.hidns.vip/163189/hjhjt/
-#EXTINF:-1 group-title="HS港澳台直播频道",黄金華剧台
 https://play.wenxiang.cn/live/6071069c620fa62c961d173617efbc33.flv
+#EXTINF:-1 group-title="HS港澳台直播频道",黄金華剧台
+https://10.fast.hidns.vip/163189/hjhjt/
 #EXTINF:-1 group-title="HS港澳台直播频道",黄金華剧台
 http://iptv.4666888.xyz/iptv2A.php?id=24
 #EXTINF:-1 group-title="HS港澳台直播频道",黄金華剧台
@@ -320,9 +324,9 @@ https://10.fast.hidns.vip/163189/viu6/
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB新闻台
 https://cdn6.cc.cd/163189/wxxw
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBPLUS
-https://10.fast.hidns.vip/163189/tvbp/
-#EXTINF:-1 group-title="HS港澳台直播频道",TVBPLUS
 https://cdn3.indevs.in/stream/tvb/tvbp/
+#EXTINF:-1 group-title="HS港澳台直播频道",TVBPLUS
+https://10.fast.hidns.vip/163189/tvbp/
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB1
 http://iptv.4666888.xyz/iptv2A.php?id=25
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBJ1
@@ -375,6 +379,8 @@ http://220.135.241.47:8321/0.ts
 http://220.135.241.47:8322/0.ts
 #EXTINF:-1 group-title="HS港澳台直播频道",原住民电视台
 http://220.135.241.47:8303/0.ts
+#EXTINF:-1 group-title="HS港澳台直播频道",民视新闻台
+http://74.91.26.218:82/live/ftvnews.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",民视影剧
 https://cdn12.178.indevs.in/163189/msyj
 #EXTINF:-1 group-title="HS港澳台直播频道",台视财经
