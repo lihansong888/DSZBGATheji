@@ -144,9 +144,9 @@ http://221.7.175.154:85/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB DRAMA
 https://amg01868-amg01868c5-tvbanywhere-us-4493.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbdrama-tvbanywhereus/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB星河
-https://10.fast.hidns.vip/163189/xinghe/
-#EXTINF:-1 group-title="HS港澳台直播频道",TVB星河
 https://cdn.qd.je/163189.php?id=tvbxh
+#EXTINF:-1 group-title="HS港澳台直播频道",TVB星河
+https://10.fast.hidns.vip/163189/xinghe/
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB星河
 http://120.198.95.220:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB Plus
@@ -156,9 +156,9 @@ https://fast.hidns.vip/163189/hoy
 #EXTINF:-1 group-title="HS港澳台直播频道",HOY77
 http://play.wenxiang.cn/live/43dc6fc9b1af5af8ec332f3c88b95e4a.flv
 #EXTINF:-1 group-title="HS港澳台直播频道",HOY78
-https://cdn.qd.je/163189/hoy78
-#EXTINF:-1 group-title="HS港澳台直播频道",HOY78
 https://fast.hidns.vip/163189/hoy78
+#EXTINF:-1 group-title="HS港澳台直播频道",HOY78
+https://cdn.qd.je/163189/hoy78
 #EXTINF:-1 group-title="HS港澳台直播频道",HOY78
 http://play.wenxiang.cn/live/cf4526f51988d0ed065b5c3fa4bc925d.flv
 #EXTINF:-1 group-title="HS港澳台直播频道",HOY78
@@ -189,8 +189,6 @@ http://120.234.44.98:18180/TV00000000000000000034@HHZT$天威hh
 http://120.198.95.220:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 group-title="HS港澳台直播频道",中天新闻
 https://d.0j7.cn/1QW1Ki
-#EXTINF:-1 group-title="HS港澳台直播频道",中天新闻
-http://173.208.234.146/live/ctinews.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",中天新闻
 https://my5353.com/ztxw
 #EXTINF:-1 group-title="HS港澳台直播频道",中天新闻
@@ -258,9 +256,9 @@ http://zmgd.zyrnet.com:8888/hls/110/index.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",凤凰资讯台
 http://zmgd.zyrnet.com:8888/hls/109/index.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",凤凰美州台
-http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:06:9A:77&stream=156408
-#EXTINF:-1 group-title="HS港澳台直播频道",凤凰美州台
 http://xiangxiws.vip:6777/qlw.php?key=qq群746405779&id=fhmz
+#EXTINF:-1 group-title="HS港澳台直播频道",凤凰美州台
+http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:06:9A:77&stream=156408
 #EXTINF:-1 group-title="HS港澳台直播频道",香港国际卫视
 http://player4.juyun.tv/camera/158562106.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",翡翠台字幕
@@ -320,9 +318,9 @@ https://10.fast.hidns.vip/163189/viu6/
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB新闻台
 https://cdn6.cc.cd/163189/wxxw
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBPLUS
-https://cdn3.indevs.in/stream/tvb/tvbp/
-#EXTINF:-1 group-title="HS港澳台直播频道",TVBPLUS
 https://10.fast.hidns.vip/163189/tvbp/
+#EXTINF:-1 group-title="HS港澳台直播频道",TVBPLUS
+https://cdn3.indevs.in/stream/tvb/tvbp/
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB1
 http://iptv.4666888.xyz/iptv2A.php?id=25
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBJ1
@@ -330,9 +328,9 @@ http://iptv.4666888.xyz/iptv2A.php?id=26
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBe
 http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=153398
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBDRAMA
-http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=153400
-#EXTINF:-1 group-title="HS港澳台直播频道",TVBDRAMA
 http://iptv.4666888.xyz/iptv2A.php?id=33
+#EXTINF:-1 group-title="HS港澳台直播频道",TVBDRAMA
+http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=153400
 #EXTINF:-1 group-title="HS港澳台直播频道",TVB千禧经典台
 https://cdn3.indevs.in/stream/live/tvbc/
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBvietnam
@@ -412,9 +410,9 @@ http://38.64.72.148/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",东森超视美州台
 http://38.64.72.148/hls/modn/list/2013/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",东森美州
-http://38.64.72.148/hls/modn/list/2016/chunklist0.m3u8
-#EXTINF:-1 group-title="HS港澳台直播频道",东森美州
 http://38.64.72.148/hls/modn/list/2016/playlist.m3u8
+#EXTINF:-1 group-title="HS港澳台直播频道",东森美州
+http://38.64.72.148/hls/modn/list/2016/chunklist0.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",东森AMERICA
 http://38.64.72.148:80/hls/modn/list/2015/playlist.m3u8
 #EXTINF:-1 group-title="HS港澳台直播频道",TVBS新闻台
